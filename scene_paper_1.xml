@@ -19,7 +19,8 @@
   <!-- jskang   -->
 
   <equality>
-      <weld body1="ur5e:mocap" body2="wrist_3_link" solimp="0.95 0.99 0.001" solref="0.1 1"></weld>
+      <weld body1="ur5e:mocap" body2="wrist_3_link" solimp="0.95 0.99 0.001" solref="0.1 1" 
+      active="true"></weld>
   </equality>
   
   
