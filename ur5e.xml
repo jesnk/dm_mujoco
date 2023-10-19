@@ -63,7 +63,7 @@
 
   <worldbody>
     <!-- jskang edited-->
-    <body mocap="true" name="ur5e:mocap" pos="0 0 0.1">
+    <body mocap="true" name="ur5e:mocap" pos="0 0.5 0.5">
       <geom conaffinity="0" contype="0" pos="0 0 0" rgba="0 0.5 0 0.7" size="0.005 0.005 0.005" type="box"></geom>
       <geom conaffinity="0" contype="0" pos="0 0 0" rgba="0 0.5 0 0.1" size="1 0.005 0.005" type="box"></geom>
       <geom conaffinity="0" contype="0" pos="0 0 0" rgba="0 0.5 0 0.1" size="0.005 1 0.001" type="box"></geom>
@@ -72,7 +72,7 @@
     <!-- jskang -->
 
     <light name="spotlight" mode="targetbodycom" target="wrist_2_link" pos="0 -1 2"/>
-    <body name="base" quat="1 0 0 1" childclass="ur5e">
+    <body name="base" quat="1 0 0 1" childclass="ur5e" >
       <inertial mass="4.0" pos="0 0 0" diaginertia="0.00443333156 0.00443333156 0.0072"/>
       <geom mesh="base_0" material="black" class="visual"/>
       <geom mesh="base_1" material="jointgray" class="visual"/>
